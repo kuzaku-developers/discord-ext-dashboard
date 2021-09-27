@@ -1,5 +1,5 @@
 import discord
-from discord import Webhook, AsyncWebhookAdapter
+from discord import Webhook
 import aiohttp
 import json
 import asyncio
