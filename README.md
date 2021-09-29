@@ -22,7 +22,7 @@
 </p>
 
 <h1 align=center>discord-ext-dashboard</h1>
-<p align=center>A webhook and request based discord.py 2.0 extension (many forks using it) for making a bot dashboard.</p>
+<p align=center>A webhook and request based discord.py 2.0 extension (many forks using it, for now its disnake) for making a bot dashboard.</p>
 
 ## Installation
 ```py
@@ -36,7 +36,7 @@ python3 -m pip install --upgrade git+https://github.com/kuzaku-developers/discor
 ### Prerequisites
 Before you get started, you will need a few things:
  - A webhook in secret channel (if anyone has access, they will be able to mess things up).
- - A properly hosted [**discord.py 2.0**](https://github.com/Rapptz/discord.py) bot (or any forks)
+ - A properly hosted [**discord.py 2.0**](https://github.com/Rapptz/discord.py) bot (or any forks, now its disnake again)
  
  And then you're ready to get started!
 
