@@ -1,5 +1,5 @@
-import discord
-from discord import Webhook
+import dislash
+from dislash import webhook
 import aiohttp
 import json
 import asyncio
@@ -26,7 +26,7 @@ class Server:
 		request = json.dumps(request_data)
 		
 		async with aiohttp.ClientSession() as session:
-			webhook = Webhook.from_url(self.webhook_url, session=session)
+			webhook = Webhook.from_url(self.webhook_url)
 			await webhook.send(request)
 			
 		await asyncio.sleep(self.sleep_time)
