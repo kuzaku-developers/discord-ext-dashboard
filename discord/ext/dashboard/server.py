@@ -1,5 +1,5 @@
-import dislash
-from dislash import webhook
+import disnake
+from disnake import webhook
 import aiohttp
 import json
 import asyncio
