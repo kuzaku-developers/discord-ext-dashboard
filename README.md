@@ -22,7 +22,7 @@
 </p>
 
 <h1 align=center>discord-ext-dashboard</h1>
-<p align=center>A webhook and request based discord.py extension for making a bot dashboard.</p>
+<p align=center>A webhook and request based discord.py 2.0 extension (many forks using it) for making a bot dashboard.</p>
 
 ## Installation
 ```py
