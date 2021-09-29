@@ -26,17 +26,17 @@
 
 ## Installation
 ```py
-pip install --upgrade discord-ext-dashboard
+pip install --upgrade git+https://github.com/kuzaku-developers/discord-ext-dashboard
 
 # If that doesn't work
-python3 -m pip install --upgrade discord-ext-dashboard
+python3 -m pip install --upgrade git+https://github.com/kuzaku-developers/discord-ext-dashboard
 ```
 
 ## Usage
 ### Prerequisites
 Before you get started, you will need a few things:
  - A webhook in secret channel (if anyone has access, they will be able to mess things up).
- - A properly hosted [**discord.py**](https://github.com/Rapptz/discord.py) bot
+ - A properly hosted [**discord.py 2.0**](https://github.com/Rapptz/discord.py) bot (or any forks)
  
  And then you're ready to get started!
 
