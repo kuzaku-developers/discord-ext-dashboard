@@ -1,5 +1,5 @@
 import disnake
-from disnake import webhook
+from disnake import Webhook
 import aiohttp
 import json
 import asyncio
