@@ -26,7 +26,7 @@ class Server:
 		request = json.dumps(request_data)
 		
 		async with aiohttp.ClientSession() as session:
-			webhook = Webhook.from_url(self.webhook_url)
+			webhook = Webhook.from_url(url=self.webhook_url, session=session)
 			await webhook.send(request)
 			
 		await asyncio.sleep(self.sleep_time)
